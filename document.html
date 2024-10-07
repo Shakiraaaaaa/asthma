@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pediatric Asthma Trigger Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .header-container {
+            background-color: #e57373; /* Lighter red color */
+            color: black; /* Text color to black */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header-container img {
+            height: 80px;
+            width: auto;
+            margin-right: 20px;
+        }
+        .header-text {
+            text-align: right;
+            width: 100%;
+        }
+        .header-text h1 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .header-text p {
+            font-size: 1rem;
+            margin: 5px 0 0 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .concept-section {
+            display: flex;
+            align-items: center;
+        }
+        .concept-label {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .concept-text {
+            flex: 1;
+        }
+        .goal-section {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .goal-section strong {
+            color: red;
+        }
+        h2 {
+            color: #dc3545;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .custom-table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        .custom-table th, .custom-table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .custom-table th {
+            font-weight: bold;
+            border-bottom: none;
+        }
+        /* Add borders after specific rows */
+        .border-after-coalition td,
+        .border-after-department td {
+            border-bottom: 1px solid black;
+        }
+        /* Remove border under specific rows */
+        .no-border td {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        /* Specific styling for the heading */
+        .trigger-header {
+            color: red; /* Red text */
+            padding: 10px; /* Padding inside the box */
+            text-align: center; /* Center the text */
+            font-weight: bold; /* Bold text */
+        }
+        /* Styling for red question and two-column layout */
+        .question {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 20px; /* Adds space above the question */
+        }
+        .trigger-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+            column-gap: 20px; /* Smaller gap between columns */
+        }
+        .trigger-list ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+        .control-measures {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        .control-measures p {
+            margin-bottom: 10px;
+        }
+        .control-measures-title {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .questions-section, .observations-section {
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .questions-section h3, .observations-section h3 {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .questions-section p, .observations-section p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <!-- <img src="logo-placeholder.png" alt="CEA Logo"> Replace with the actual logo -->
+        <div class="header-text">
+            <h1>A Dynamic Concept of Social Work Personnel and Pediatric Asthma Triggers:</h1>
+            <p>Indoor Air Quality and Environmental Trigger Management</p>
+            <p>Southeast Missouri State University</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section>
+            <div class="concept-section">
+                <div class="concept-label">Concept</div>
+                <div class="concept-text">
+                    <p>Environmental conditions have a tremendous impact on the health and welfare of pediatric asthma patients. Social work's contribution to the protection of child health by assessing indoor environmental asthma triggers is a challenging but crucial activity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="goal-section">
+            <p><strong>Goal:</strong> To provide patient caregivers with the information necessary to raise awareness of the indoor asthma triggers that may be present in their homes and increase confidence in managing their child’s asthma.</p>
+        </section>
+
+        <section>
+            <div class="trigger-header">ENVIRONMENTAL TRIGGER EDUCATION FOR PATIENTS/CAREGIVERS</div>
+
+            <div class="question">What are the indoor environmental triggers that affect asthma symptom onset?</div>
+
+            <div class="trigger-list">
+                <ul>
+                    <li>Tobacco Smoke</li>
+                    <li>Pests (cockroaches, mice)</li>
+                    <li>Mold/Fungi</li>
+                </ul>
+                <ul>
+                    <li>Pet Dander</li>
+                    <li>Dust Mites</li>
+                    <li>Endotoxins</li>
+                </ul>
+            </div>
+
+            <div class="control-measures">
+                <div class="control-measures-title">Are there control measures for these triggers?</div>
+                <p>Clean the home to reduce the number of dust mites and pet dander contained in pillows, carpets, stuffed animals, and bedding. Cover bedding and pillows with sealable, anti-allergenic plastic covers when possible.</p>
+                <p>Clean areas with visible mold/fungi and stop any water leaks inside the living area.</p>
+                <p>Clean air cleaning filters present in heating, ventilating, and air conditioning systems on a regular basis.</p>
+                <p>Clean food storage areas; keep foods in sealable containers, and empty trash and garbage to minimize pest impacts in the home.</p>
+                <p>Keep windows closed during allergy season.</p>
+                <p>Do not let family pets sleep with those affected by asthma. Keep the pet outside when possible.</p>
+                <p>Do not smoke in the home or car.</p>
+            </div>
+        </section>
+
+        <section class="questions-section">
+            <h3>QUESTIONS TO ASK THE PATIENT OR PATIENT FAMILY MEMBERS</h3>
+            <p>Do you understand how environmental triggers affect the onset of asthma in your child?</p>
+            <p>How much do you think it will help your child to reduce or remove these triggers from your home?</p>
+            <p>How much do you think it will help you to recognize the first signs of asthma symptom onset?</p>
+            <p>Will you be able to provide the medications necessary for your child during mild or severe attacks?</p>
+            <p>Do you have access to rescue treatments when necessary?</p>
+            <p>Do you understand the medical directions about asthma and asthma treatment provided by your health care provider?</p>
+            <p>Do you have access and transportation to medical appointments?</p>
+            <p>Do you have an asthma action plan? Does your child’s school nurse have this plan? Have you discussed your child’s asthma plan with the nurse?</p>
+        </section>
+
+        <section class="observations-section">
+            <h3>HOME ASSESSMENT OBSERVATIONS</h3>
+            <p>What is going on in the child’s life at home? Are there stressors, environmental, cultural and/or psychosocial, affecting the child?</p>
+            <p>Is there obvious mold growth in the home? Where?</p>
+            <p>Is there a pet living in the home? Does it sleep with the child?</p>
+            <p>Is the home in good repair? Are there signs of water leaks?</p>
+            <p>Are there any signs of pests (cockroaches, rodents) in the home? Is refuse being disposed of properly? Are foods in containers sealed? Are good housekeeping practices being followed in the kitchen?</p>
+            <p>Are there visible signs of dust in the air or on flat surfaces? Are there smokers in the home?</p>
+            <p>Fill in the information below for a quick reference. Identify and partner with community resources. Be an advocate for your clients. YOU can make a difference in pediatric asthma.</p>
+        </section>
+
+        <section>
+            <h2>Community Resources Contact Information</h2>
+            <table class="custom-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Telephone</th>
+                    <th>Contact Person</th>
+                </tr>
+                <tr class="border-after-coalition">
+                    <td>Local Asthma Coalition</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="border-after-department">
+                    <td>Local Health Department</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="no-border">
+                    <td>Environmental Assistance</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="bottom-border">
+                    <td>IHOPE Foundation</td>
+                    <td>573-651-2355</td>
+                    <td>Dr. John Kraemer</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pediatric Asthma Education | Southeast Missouri State University</p>
+    </footer>
+
+</body>
+</html>
